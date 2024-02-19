@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.firstcontainer {
+  width: 100vw;
+  height: 120vh;
+  background-image: url(./images/background-hero.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+span {
+  color: white;
+  font-size: 1.2rem;
+}
+a {
+  color: white;
+  text-decoration: underline #44ffa1;
+  font-size: 1rem;
+}
+.work {
+  display: inline;
+  position: absolute;
+  top: 5vh;
+  left: 10vw;
+}
+.apply {
+  display: inline;
+  position: absolute;
+  top: 5vh;
+  right: 10vw;
+}
+.heading {
+  width: 30vw;
+  height: 15vh;
+  color: white;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 20vh;
+  left: 33vw;
+  text-align: center;
+}
+
+button {
+  color: black;
+  height: 6vh;
+  width: 8vw;
+  background-color: #44ffa1;
+  padding: auto;
+  border: none;
+  position: absolute;
+  top: 45vh;
+  left: 44vw;
+}
+.leftlogo {
+  width: 15vw;
+  height: 30vh;
+  background-image: url(./images/bg-pattern-1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15vh;
+}
+.rightlogo {
+  width: 8vw;
+  height: 18vh;
+  background-image: url(./images/bg-pattern-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 40vh;
+  right: 0vh;
+}
+
+.mobile {
+  width: 70vw;
+  height: 60vh;
+  background-image: url(./images/image-hero.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 63vh;
+  left: 30vw;
+}
+
+p {
+  color: black;
+}
+
+.one {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+.conhead {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.divhead {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+.numcontainer {
+  width: 72.5vw;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15vw;
+}
+
+.number1 {
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 15vw;
+}
+.number2 {
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 27vw;
+}
+.number3 {
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 27vw;
+}
+.midheadcontainer {
+  width: 72.5vw;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-top: 8vh;
+}
+h3 {
+  color: black;
+}
+
+.text1 {
+  width: 23vw;
+  height: 8vh;
+  display: inline-block;
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+.text2 {
+  width: 23vw;
+  height: 8vh;
+  display: inline-block;
+  margin-top: 3vh;
+  margin-left: 7vw;
+}
+.text3 {
+  width: 23vw;
+  height: 8vh;
+  display: inline-block;
+  margin-top: 3vh;
+  margin-left: 7vw;
+}
+.picture {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-image: url(./images/image-founder.webp);
+  background-size: contain;
+  margin-top: 28vh;
+  margin-left: 7vw;
+}
+.bottomcontainer {
+  width: 45vw;
+  height: 45vh;
+  background-image: url(./images/background-hero.svg);
+  background-size: auto;
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+}
+.botlor > p {
+  color: white;
+  font-weight: 200;
+  font-size: 1rem;
+}
+.both3 {
+  position: absolute;
+  top: 5vh;
+  left: 3vw;
+}
+.botlor {
+  position: absolute;
+  top: 15vh;
+  left: 3vw;
+  width: 80%;
+}
+.botbutton {
+  position: absolute;
+  background-color: #44ffa1;
+  width: 12vw;
+  height: 5vh;
+  padding: auto;
+  top: 32vh;
+  left: 3vw;
+}
+.botlogo {
+  height: 20vh;
+  width: 20vw;
+  background-image: url(./images/bg-pattern-3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 32vh;
+  left: 30vw;
+}
+.botworkit > span {
+  color: black;
+  font-size: 1.2rem;
+  position: relative;
+  top: 33vh;
+  left: 40vw;
+}
+.icon {
+  width: 10vw;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  top: 35vh;
+  left: 37vw;
+}
